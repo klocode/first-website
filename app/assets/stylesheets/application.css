@@ -27,7 +27,7 @@ body, html {
 }
 
 .parallax_section {
-	height: 800px;
+	  height: 800px;
   	background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-size: cover;
@@ -76,7 +76,6 @@ body, html {
 
 #second {
   color: black;
-  font-style: oblique;
 }
 
 #third{
