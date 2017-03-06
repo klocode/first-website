@@ -15,17 +15,25 @@
  */
 body, html {
     height: 100%;
-    background-color: black;
+    background-color:#556;
+    background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+    linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+    linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+    linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+    linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a),
+    linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
+    background-size:80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
 }
 
-.parallax_section{
+.parallax_section {
 	height: 800px;
   	background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-size: cover;
   	background-position: 100% auto;
 		position:relative;
-    font-size: 60px;
+    font-size: 30px;
     top: 10%;
     margin-top: -10px;
     left: 0;
@@ -56,8 +64,14 @@ body, html {
   background-image: url("http://onehdwallpaper.com/wp-content/uploads/2015/07/Penguin-HD-Wallpapers-and-Pictures.jpg")
 }
 
+.parallax_image_sixth{
+  background-image: url("http://cdn.pcwallart.com/images/emperor-penguins-swimming-wallpaper-1.jpg")
+}
+
+
 #first {
   font-style: oblique;
+  position:
 }
 
 #second {
@@ -78,26 +92,17 @@ body, html {
   font-style: oblique;
 }
 
-
-/*#header{
-  width: 500px;
-  margin: auto;
-  text-align: center;
-  font-size: 2em;
-  color: #228DFF;
+#sixth{
+  font-style: oblique;
 }
 
+/*.center {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 10%;
+    left: 50%;
+    margin-left: 0px;
+    margin-top: -25px;
 
-#facts {
-  margin: left;
-  width: 40%;
-  padding: 10px;
-  color: lightblue;
-
-}
-
-img {
-    display: block;
-    margin: auto;
-    width: 40%;
-}*/
+}​*/
