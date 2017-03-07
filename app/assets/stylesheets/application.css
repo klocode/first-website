@@ -70,8 +70,7 @@ body, html {
 
 
 #first {
-  font-style: oblique;
-  position:
+
 }
 
 #second {
@@ -79,20 +78,20 @@ body, html {
 }
 
 #third{
-  font-style: oblique;
+  /*font-style: oblique;*/
 }
 
 #fourth{
-  font-style: oblique;
+  /*font-style: oblique;*/
 }
 
 #fifth{
   color: black;
-  font-style: oblique;
+  /*font-style: oblique;*/
 }
 
 #sixth{
-  font-style: oblique;
+  /*font-style: oblique;*/
 }
 
 /*.center {
